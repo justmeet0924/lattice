@@ -1,7 +1,7 @@
 function make_lattice(num, array) {
 
-	let w = window.innerWidth;
-	let h = window.innerHeight;
+	let w = width;
+	let h = height;
 	let s = min(w, h);
 	for (let i = 1; i < num; i++) {
 		for (let j = 1; j < num; j++) {
