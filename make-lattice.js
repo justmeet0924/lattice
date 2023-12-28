@@ -13,3 +13,16 @@ function make_lattice(num, array) {
 		}
 	}
 }
+
+//make points which make lattice
+function make_lattice_2(num, array) {
+
+	for (let i = 1; i < num; i++) {
+		for (let j = 1; j < num; j++) {
+			let x = (width / num) * i;
+			let y = (height / num) * j;
+
+			array.push({x:x,y:y});
+		}
+	}
+}
